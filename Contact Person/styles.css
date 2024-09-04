@@ -101,6 +101,13 @@ button:hover {
     transform: scale(1.02);
 }
 
+
+button:active {
+    background-color: #004080; /* Warna tombol saat ditekan */
+    transform: scale(0.98); /* Efek kecil saat tombol ditekan */
+}
+
+
 table {
     width: 100%;
     border-collapse: collapse;
